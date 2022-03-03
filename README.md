@@ -1,4 +1,6 @@
 # wordle-help
+**Warning: Spoilers in `words.txt`**
+
 If you suck at Wordle like I do, this API is for you.
 
 https://wordle-helper.yodacode.repl.co
