@@ -58,7 +58,7 @@ app.get('/answer', (req, res) => {
     res.send(req.today);
 });
 
-app.listen(8080);
+app.listen(8080, () => console.log('Ready on *:8080'));
 
 function getLettersOff (test1, test2) {
     let rawApart = test1.length - test1.split('').map((letter, i) => {
